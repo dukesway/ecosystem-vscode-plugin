@@ -16,3 +16,5 @@ install:
 script:
   - yarn run tslint
   - yarn run compile
+  - yarn vscode:prepublish
+  - yarn test --silent
